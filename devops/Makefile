@@ -94,7 +94,11 @@ provision: bin/ansible ## Provision Vagrant box
 .PHONY: run-playbook
 run-playbook: bin/ansible ## Run playbook
 	@echo "$(GREEN)==> Apply playbook in $(DEPLOY_ENV) $(RESET)"
-	./bin/ansible-playbook playbook-setup.yml --limit ${CONTEXT}
+	if [ "$(DEPLOY_ENV)" = "prod" ]; then \
+		./bin/ansible-playbook playbook-setup.yml --limit ${CONTEXT} -kK; \
+	else \
+		./bin/ansible-playbook playbook-setup.yml --limit ${CONTEXT}; \
+	fi
 
 .PHONY: deploy
 deploy: ## Deploy stacks: Plone
