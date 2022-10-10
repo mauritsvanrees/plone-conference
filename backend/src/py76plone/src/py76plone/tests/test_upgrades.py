@@ -1,5 +1,5 @@
 """Upgrades tests for this package."""
-from parameterized import parameterized
+# from parameterized import parameterized
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from Products.GenericSetup.upgrade import listUpgradeSteps
