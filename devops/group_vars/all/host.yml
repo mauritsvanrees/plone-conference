@@ -1,0 +1,3 @@
+---
+hostname: 'plone-conference'
+fqdn: '{{ hostname }}.localhost'

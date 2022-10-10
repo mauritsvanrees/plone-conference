@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer interface="py76plone.interfaces.IPY76PLONELayer"
+         name="py76plone"
+  />
+</layers>

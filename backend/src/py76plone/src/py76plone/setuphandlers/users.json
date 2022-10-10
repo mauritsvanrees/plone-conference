@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "maurits@py76.be",
+      "properties": {
+        "fullname": "Plone Conference",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "plone-conference"
+    }
+  ],
+    "team": [
+  ]
+}
