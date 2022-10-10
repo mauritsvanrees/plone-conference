@@ -4,7 +4,8 @@ users:
   'plone':
     name: 'Plone installation'
     email: 'maurits@py76.be'
-    public_keys: []
+    public_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEAuybunjaRO3kfujDu3M22TmdLK3an6GG8JOL2JYzddKlYQ7KSyuyE+oioV6inVAwuAIddLp/UQ0jNevRWPwNjbhl7z6zdX8K3MWvSTQzyJXoOjtlyoaVjMayww+pWSt58/Nhcxxej7URpJwgnrMoqjNmBJZE1u6dC7bQ6WZWJMrs+kYoOZLg0dA23FDCW8RV5z/I5TWe8l2rn0wXB3gBMdUrNIQypwURO/UJ0a+fM2GO170yqQcs56EDwRmUZHl1U8T/eg9arcAvoxijmhMzRgXrlLD9nAWVxG/vtfiL4T/tHePpVdEaZ8RkzRIH6O8BZpYqfklm/TLPovuZidS3cp914ew786KkNQ31KXfqHEumA1Et1l1/MzUeeUasKn5T7ayqzpd+w5KxVLXkY9lHf7pHljNo+o+ito/qT0cNlwxXdOm2BFoSdgOUXWj1nqpB6kf60lpt5JOWbz8AXJoISCWYmfjB0mM+Zs00/owTFJCQ5vNd94yLP58uCWiXm1x56LAAH/OgJ0mXa9IRUTINepKcEqzsQY1fuoT4aAdvlO05lLHCGQ+mDp8c8yiqr/BPuH9EErRhL0gwUh/JA6FZp8sp6Hlv4mjHuyKTH5yezP1MeBX1ipVl3mDF+Xzv9Eau236gpVBO0kf1OHxcEQ6z4rxH0zwL3UTjl1CA3RKso5S0= mauritsvanrees@argus
     state: present
     shell: '/bin/bash'
     groups:
