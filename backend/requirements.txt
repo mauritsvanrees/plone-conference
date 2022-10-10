@@ -5,4 +5,4 @@ zope.testrunner
 
 # Add required add-ons
 # collective.easyform
-pas.plugins.authomatic
+# pas.plugins.authomatic
