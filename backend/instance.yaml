@@ -3,6 +3,6 @@ default_context:
     initial_user_password: 'admin'
 
     load_zcml:
-        package_includes: ['py76plone']
+        package_includes: ['py76plone', 'pas.plugins.authomatic']
 
     db_storage: direct
