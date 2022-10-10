@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2022-10-10 10:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,3 +13,39 @@ msgstr ""
 "Language-Name: Portugu&es do Brasil\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+
+#: py76plone/vocabularies/__init__.py:11
+msgid "Education"
+msgstr ""
+
+#: py76plone/vocabularies/__init__.py:9
+msgid "Government"
+msgstr ""
+
+#: py76plone/profiles.zcml:22
+msgid "Initial content for our website."
+msgstr ""
+
+#: py76plone/vocabularies/__init__.py:10
+msgid "NGO"
+msgstr ""
+
+#: py76plone/profiles.zcml:22
+msgid "Plone Conference: Initial content"
+msgstr ""
+
+#: py76plone/profiles.zcml:13
+msgid "Plone Conference: Install"
+msgstr ""
+
+#: py76plone/profiles.zcml:30
+msgid "Plone Conference: Uninstall"
+msgstr ""
+
+#: py76plone/profiles.zcml:13
+msgid "Policy package to install our site"
+msgstr ""
+
+#: py76plone/profiles.zcml:30
+msgid "Uninstall Plone Conference setup."
+msgstr ""
