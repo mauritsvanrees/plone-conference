@@ -43,7 +43,7 @@ jobs:
         run: yarn run lint:ci
 
       - name: i18n
-        run: yarn run i18n:ci
+        run: yarn run i18n
 
   prettier:
     runs-on: ubuntu-latest
