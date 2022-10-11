@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "volto-addon": [
+                "addons/volto-addon/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
