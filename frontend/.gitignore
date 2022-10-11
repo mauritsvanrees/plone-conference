@@ -80,5 +80,5 @@ omelette
 
 public/critical.css
 src/addons/*
-
+!src/addons/volto-addon/
 /cache/
